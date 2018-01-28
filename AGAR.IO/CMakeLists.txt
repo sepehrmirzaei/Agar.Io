@@ -11,7 +11,7 @@ find_package(Qt5 REQUIRED COMPONENTS Core Widgets Gui Network Multimedia)
 set(cmake_prefix_path ${qt5_base_dir}/lib/cmake)
 
 set(SOURCE_FILES main.cpp sources/headerfiles/chatdesign.h sources/sourcesfiles/chatdesign.cpp sources/headerfiles/loginmenu.h sources/sourcesfiles/loginmenu.cpp  sources/headerfiles/client.h sources/sourcesfiles/client.cpp sources/headerfiles/connection.h sources/sourcesfiles/connection.cpp "sources/headerfiles/graphic view.h" "sources/sourcesfiles/graphic view.cpp")#sources/headerfiles/sample.h sources/sourcesfiles/sample.cpp sources/headerfiles/chatdesign.h sources/sourcesfiles/chatdesign.cpp sources/headerfiles/loginmenu.h sources/sourcesfiles/loginmenu.cpp sources/headerfiles/connection.h sources/sourcesfiles/connection.cpp sources/headerfiles/interface.h sources/sourcesfiles/interface.cpp sources/headerfiles/client.h sources/sourcesfiles/client.cpp)
-find_package(Qt5 REQUIRED COMPONENTS Core Widgets Gui Network Multimedia)
+
 
 add_executable(${CMAKE_PROJECT_NAME} ${SOURCE_FILES})
 target_link_libraries(${CMAKE_PROJECT_NAME} Qt5::Core Qt5::Widgets Qt5::Gui Qt5::Network Qt5::Multimedia)
