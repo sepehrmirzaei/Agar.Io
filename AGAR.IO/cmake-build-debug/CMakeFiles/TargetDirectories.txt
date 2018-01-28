@@ -1,0 +1,4 @@
+/home/sepehr007/agario project/AGAR.IO/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sepehr007/agario project/AGAR.IO/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sepehr007/agario project/AGAR.IO/cmake-build-debug/CMakeFiles/AGAR.IO.dir
+/home/sepehr007/agario project/AGAR.IO/cmake-build-debug/CMakeFiles/AGAR.IO_automoc.dir
